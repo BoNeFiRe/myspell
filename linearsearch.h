@@ -1,5 +1,5 @@
 /*
- * linear.h
+ * linearsearch.h
  *
  *  Created on: Feb 19, 2011
  *      Author: Matthew LEvandowski
@@ -7,11 +7,10 @@
  *      GVSU Computer Science
  */
 
-#ifndef LINEAR_H_
-#define LINEAR_H_
+#ifndef LINEARSEARCH_H_
+#define LINEARSEARCH_H_
 
-bool linear_lookup(char* word);
-bool load_dict_array();
+bool linear_lookup(char *word, int wcnt, char **dictionary);
 
 #endif /* LINEAR_H_ */
 
